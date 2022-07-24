@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--#include virtual="/templates/_head.html" -->
 
-<!--#include virtual="/templates/_head.html" -->
-
-<body class="wrapper">
-
+  <body class="wrapper">
     <!--#include virtual="/templates/_header.html" -->
     <main class="content">
-        
+      <section class="promo">
+        <div class="promo__container container">
+          <div class="promo-info">
+            <h1 class="promo-title title">
+              ПОИСК И ДОСТАВКА ТОВАРОВ <br />
+              ИЗ ГЕРМАНИИ И СТРАН ЕС <br />
+              В РЕСПУБЛИКУ КАЗАХСТАН
+            </h1>
+            <p class="promo-text">
+              Компания «LOG FORMATA Beteiligungs GmbH» специализируется на
+              поиске и доставке товаров и оборудования из Германии и стран ЕС.
+              Подберём индивидуально по вашим требованиям качественные товары
+              или оборудование по выгодной цене. Заводы и фабрики Европы – это
+              лидеры на мировом рынке производства оборудования, которые
+              отвечают основным требованиям как надёжность и производительность.
+              Наша компания в хороших отношениях со множеством сертифицированных
+              заводов и фабрик Германии, поэтому мы поставляем товар без брака и
+              по реальной стоимости.
+            </p>
+          </div>
+          <form action="#" class="promo-form">
+            <legend class="promo-form__title">Заполните данные:</legend>
+            <div class="promo-form__box">
+              <input type="text" class="promo-form__input" placeholder="Имя" />
+              <input
+                type="email"
+                class="promo-form__input"
+                placeholder="Email"
+              />
+              <input
+                type="tel"
+                class="promo-form__input"
+                placeholder="Номер телефона"
+              />
+            </div>
+
+            <button class="promo-form__button">Отправить заявку</button>
+            <p class="promo-form__warning">
+              * Ваши данные не разглашаются третьим лицам
+            </p>
+          </form>
+        </div>
+      </section>
     </main>
     <!--#include virtual="/templates/_footer.html" -->
 
     <!--#include virtual="/templates/_scripts.html" -->
-</body>
-
+  </body>
 </html>
