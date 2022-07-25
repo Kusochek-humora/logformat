@@ -1,0 +1,28 @@
+// .warranty {
+// }
+// .warranty-title {
+// }
+// .sub-title {
+// }
+// .warranty__container {
+// }
+
+.warranty-content {
+    gap: 0 77px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+.warranty-content__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 227px;
+}
+.warranty-content__item-image {
+    margin-bottom: 20px;
+}
+.warranty-content__item-text {
+    text-align: center;
+}

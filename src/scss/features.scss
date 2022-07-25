@@ -1,0 +1,32 @@
+// .features {
+    
+// }
+// .features__container {
+// }
+
+// .features-title {
+
+// }
+
+.features-content {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    gap: 30px 0;
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+}
+.features-content__item {
+    display: flex;
+    align-items: center;
+    flex: 1 0 680px;
+}
+.features-content__item-image {
+    margin-right: 60px;
+    object-fit: cover;
+    width: 100px;
+    height: 99px;
+}
+.features-content__item-text {
+}
