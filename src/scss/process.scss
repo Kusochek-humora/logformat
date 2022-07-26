@@ -1,0 +1,72 @@
+.process {
+    font-style: italic;
+    font-weight: bold;
+}
+.process-title {
+}
+
+.process__container {
+    padding: 60px 0;
+}
+.process-top {
+    justify-content: space-between;
+    display: flex;
+    gap: 107px 0;
+
+    margin-bottom: 55px;
+}
+.process-medium {
+    position: relative;
+    text-align: center;
+}
+.process-top__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 250px;
+
+    &.first {
+        &::before {
+            display: none;
+        }
+    }
+    &.last {
+        max-width: 250px;
+        width: 100%;
+        display: inline-block;
+        &::before {
+            text-align: left;
+        }
+    }
+    position: relative;
+    &::before {
+        content: attr(data-num);
+        position: absolute;
+        width: 48px;
+        height: 55px;
+        clip-path: polygon(100% 49%, 0 0, 0 99%);
+        background-color: #ffcc00;
+        top: calc(50% - 44.75px);
+        left: -30px;
+        transform: translateY(-50%);
+      padding-top: 12px;
+      padding-left: 7px;
+      text-align: left;
+    }
+}
+.process__last-warrning {
+    transform: translate(-2.5%, -33%);
+}
+
+.process-top__item-image {
+    /* Style for "icon large" */
+    width: 175px;
+    height: 174px;
+
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 25px;
+}
+.process-top__item-text {
+    text-align: center;
+}
