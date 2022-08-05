@@ -86,8 +86,6 @@
         }
     }
     @media screen and (max-width: 1200px) {
-
-        
         margin-bottom: 70px;
         padding-left: 0;
         text-align: center;
@@ -99,14 +97,13 @@
             display: none;
         }
         &::after {
-            bottom: -20%;
+            bottom: -15%;
             display: block;
         }
     }
 
-    @media screen and (max-width: 499px){
+    @media screen and (max-width: 499px) {
         font-size: 26px;
-
     }
 }
 
