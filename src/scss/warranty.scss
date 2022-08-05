@@ -12,6 +12,12 @@
     padding: 60px 0;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1200px) {
+        padding: 30px 0;
+        gap: 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 .warranty-content__item {
     display: flex;
@@ -19,6 +25,22 @@
     align-items: center;
     justify-content: flex-end;
     height: 227px;
+    @media screen and (max-width: 1200px) {
+        justify-content: space-around;
+        max-width: calc(50% - 30px);
+     width: 100%;
+        &:nth-child(-n + 2) {
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        max-width: 100%;
+        //   width: auto;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 .warranty-content__item-image {
     margin-bottom: 20px;
