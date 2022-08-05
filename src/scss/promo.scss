@@ -88,7 +88,7 @@
     @media screen and (max-width: 1200px) {
 
         
-        margin-bottom: 90px;
+        margin-bottom: 70px;
         padding-left: 0;
         text-align: center;
         align-self: center;
@@ -99,6 +99,7 @@
             display: none;
         }
         &::after {
+            bottom: -20%;
             display: block;
         }
     }
