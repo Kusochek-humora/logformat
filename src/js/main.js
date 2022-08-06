@@ -5,7 +5,7 @@ let items = document.querySelectorAll(".widget-item");
 let button = document.querySelector(".widget-button");
 let active = false;
 const length = items.length;
-const arc = -1.5 * Math.PI * (1 / length) * Math.PI;
+const arc = 2 * Math.PI * (1 / length);
 console.log(arc);
 const radius = 42;
 button.addEventListener("click", () => {
